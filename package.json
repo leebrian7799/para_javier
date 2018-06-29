@@ -1,5 +1,12 @@
 {
   "name": "my_muses",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "resolve-url-loader": "^2.3.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
