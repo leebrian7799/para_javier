@@ -1,16 +1,14 @@
 import React from 'react'
 import {
   BrowserRouter as Router,
-  Route
+  Route,
 } from 'react-router-dom'
-import LnadingPage from './components/landingPage';
-
+import LandingPage from './components/landingPage';
 const App = (props) => (
   <Router>
     <div>
-      <Route exact path = '/' component = {LandingPage} />
+      <Route exact path='/' component={LandingPage} />
     </div>
   </Router>
 )
-
 export default App;
